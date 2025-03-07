@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Products - Company Profile</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+      /* Supaya navbar selalu di atas elemen lain */
+    }
+
+    body {
+      padding-top: 56px;
+      /* Sesuaikan dengan tinggi navbar agar konten tidak tertutup */
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <img src="logo.png" alt="logo" srcset="" style="width: 60px;">
+      <a class="navbar-brand" href="index.html"
+        style="color: gold; font-weight: bold; font-size: 18px; margin-left: 10px;">
+        Mahakarya Cipta Solusi
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="general.html">Our Product</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header class="text-black text-center py-5"
+    style="height: 300px; background-color: goldenrod; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+    <h1>Software</h1>
+    <p>Ruang Lingkup Kerja</p>
+  </header>
+
+  <section class="container my-5">
+    <div style="text-align:center;">
+      <h2 style="text-shadow: 2px 2px 0px gold;">PRODUK KAMI</h2>
+      <hr>
+    </div>
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            <img src="erp.png" alt="" srcset=""><br>
+            <img src="graphic-desain.jpeg" alt="" srcset="" style="margin-top: 20px; border-radius: 12px;">
+          </div>
+          <div class="col">
+            <img src="cloud-computing.png" alt="" srcset=""><br>
+            <img src="mobile-app.jpeg" alt="" srcset="" style="margin-top: 20px; border-radius: 12px;">
+          </div>
+          <div class="col">
+            <img src="cybersecurity.jpg" alt="" srcset=""  style="width: 350px; "><br>
+            <img src="web-software.jpeg" alt="" srcset="" style="margin-top: 20px; border-radius: 12px;">
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Company Name. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
